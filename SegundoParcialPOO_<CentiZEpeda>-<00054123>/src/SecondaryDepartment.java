@@ -1,8 +1,8 @@
 public class SecondaryDepartment implements Component{
     private String name;
 
-    public SecondaryDepartment(String nombre) {
-        name = nombre;
+    public SecondaryDepartment(String name) {
+        this.name = name;
     }
 
     public String getname() {
@@ -10,7 +10,7 @@ public class SecondaryDepartment implements Component{
     }
 
     public void setname(String name) {
-        name = name;
+        this.name = name;
     }
     @Override
     public void working(){ System.out.println("Soy departamento secundario: "+getname()+" y estoy trabajando");};
